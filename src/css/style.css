@@ -1,0 +1,70 @@
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.container {
+    background-color: #F7F7F7;
+    max-width: 900px;
+    display: grid;
+    grid-template-areas: "video-destaque propaganda"
+                         "video-destaque videos-sugeridos";
+    grid-template-columns: 1fr 270px;
+    grid-template-rows: 56px 1fr;
+    gap: 20px;
+    padding: 35px;
+}
+
+.video-destaque {
+    grid-area: video-destaque;
+}
+
+.propaganda {
+    grid-area: propaganda;
+}
+
+.videos-sugeridos {
+    grid-area: videos-sugeridos;
+}
+
+.video-destaque img {
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.titulo {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.visualizacoes {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 7px;
+}
+
+.texto {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.video {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.video h2 {
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 5px;
+
+}
+
+.video p {
+    font-weight: 300;
+    font-size: 11px;
+    margin-top: 5px;
+}
+
